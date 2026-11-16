@@ -1,6 +1,6 @@
 /* Rinkside Stats offline support.
    Change VERSION whenever you upload new app files, so tablets pick up the update. */
-const VERSION = 'rinkside-v1';
+const VERSION = 'rinkside-v2';
 const FILES = ['./', 'index.html', 'manifest.webmanifest', 'html2canvas.min.js', 'jspdf.umd.min.js', 'icon-192.png', 'icon-512.png', 'icon-maskable-512.png'];
 
 self.addEventListener('install', (e) => {
